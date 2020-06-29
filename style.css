@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    font-size: 16px;
+}
+
+.promo {
+    max-width: 40rem;
+    padding: 1rem;
+}
+
+.motto h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.motto h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.motto p {
+    font-size: 1.8rem;
+}
+
+.motto em {
+    color: #ed7647;
+    font-style: normal;
+}
+
+.motto a,
+.motto a:visited {
+    color: #ed7647;
+    text-decoration: none;
+}
+
+.motto a:hover {
+    text-decoration: underline;
+}
